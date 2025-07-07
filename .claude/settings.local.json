@@ -30,7 +30,8 @@
       "Bash(java:*)",
       "Bash(keytool:*)",
       "Bash(npx cap sync:*)",
-      "Bash(diff:*)"
+      "Bash(diff:*)",
+      "Bash(git pull:*)"
     ],
     "deny": []
   }
