@@ -1,0 +1,31 @@
+{
+  "appId": "com.bouncehunter.app",
+  "appName": "Bounce Hunter",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": ["*"]
+  },
+  "android": {
+    "buildOptions": {
+      "releaseType": "AAB"
+    },
+    "includePlugins": [
+      "@capacitor/splash-screen",
+      "@capacitor/status-bar"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#0f172a",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0f172a"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(mv:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(find:*)",
+      "Bash(cd:*)",
+      "Bash(cd:*)",
+      "Bash(cd:*)",
+      "Bash(grep:*)",
+      "Bash(cp:*)",
+      "Bash(magick:*)",
+      "Bash(convert:*)",
+      "Bash(for file in ic_launcher*.png)",
+      "Bash(do cp ../ícone.png \"$file\")",
+      "Bash(done)",
+      "Bash(for:*)",
+      "Bash(do cp \"ChatGPT Image 6 de jul. de 2025, 16_03_22.png\" \"$file\")",
+      "Bash(do cp \"ChatGPT Image 6 de jul. de 2025, 16_06_06.png\" \"$file\")",
+      "Bash(npx cap add:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(java:*)",
+      "Bash(keytool:*)",
+      "Bash(npx cap sync:*)",
+      "Bash(diff:*)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,67 @@
+
+{
+  "title": "Bounce Hunter",
+  "menu": {
+    "button": "Menu"
+  },
+  "splash": {
+    "welcome": "Welcome!",
+    "goal": "Your goal is to click where the ball will be in <strong>1 second</strong>. Choose your mode:",
+    "story": {
+      "title": "Story",
+      "description": "Progress through all levels. Your progress is saved. Lives regenerate over time.",
+      "watchAd": "Watch Ad (Refill Lives)",
+      "nextLifeIn": "Next in {time}"
+    },
+    "arcade": {
+      "title": "Arcade",
+      "description": "Start with 3 lives and try to get as far as you can. The run ends when you're out of lives."
+    }
+  },
+  "scoreboard": {
+    "level": "Level",
+    "score": "Score",
+    "lives": "Lives",
+    "nextLifeIn": "Next:"
+  },
+  "game": {
+    "instruction": "Click where you think the ball will be in 1 second!",
+    "wait": "Waiting to see the result...",
+    "win_message": "Great prediction! Ready for the next level?",
+    "lose_message": "Not quite! Try again.",
+    "resetBall": "Reset Position"
+  },
+  "pause": {
+    "title": "Paused",
+    "resume": "Resume",
+    "settings": "Settings",
+    "mainMenu": "Main Menu"
+  },
+  "settings": {
+    "title": "Settings",
+    "ballTrail": "Ball Trail",
+    "screenShake": "Screen Shake",
+    "language": "Language",
+    "back": "Back"
+  },
+  "result": {
+    "gameOver": "Game Over",
+    "success": "Success!",
+    "almost": "Almost!",
+    "gameComplete": "You Win!",
+    "gameCompleteMessage": "Congratulations! You've beaten all the levels!",
+    "gameOverMessage": "You've run out of lives.",
+    "successMessage": "Your prediction was spot on!",
+    "almostMessage": "That was a close one. Let's try this level again.",
+    "nextLevel": "Next Level",
+    "mainMenu": "Main Menu",
+    "tryAgain": "Try Again",
+    "playAgain": "Play Again",
+    "watchAd": "Watch Ad (Refill Lives)"
+  },
+  "ad": {
+    "watching": "Watching ad...",
+    "resumeMessage": "Your game will resume shortly.",
+    "rewardMessage": "All lives refilled!"
+  }
+}

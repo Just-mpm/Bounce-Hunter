@@ -1,0 +1,67 @@
+
+{
+  "title": "Bounce Hunter",
+  "menu": {
+    "button": "Menu"
+  },
+  "splash": {
+    "welcome": "Bem-vindo!",
+    "goal": "Seu objetivo é clicar onde a bola estará em <strong>1 segundo</strong>. Escolha seu modo:",
+    "story": {
+      "title": "História",
+      "description": "Avance por todos os níveis. Seu progresso é salvo. As vidas se regeneram com o tempo.",
+      "watchAd": "Ver Anúncio (Recarregar Vidas)",
+      "nextLifeIn": "Próxima em {time}"
+    },
+    "arcade": {
+      "title": "Arcade",
+      "description": "Comece com 3 vidas e tente chegar o mais longe que puder. A partida termina quando suas vidas acabam."
+    }
+  },
+  "scoreboard": {
+    "level": "Nível",
+    "score": "Pontos",
+    "lives": "Vidas",
+    "nextLifeIn": "Próxima em:"
+  },
+  "game": {
+    "instruction": "Clique onde você acha que a bola estará em 1 segundo!",
+    "wait": "Aguardando para ver o resultado...",
+    "win_message": "Ótima previsão! Pronto para o próximo nível?",
+    "lose_message": "Não foi dessa vez! Tente novamente.",
+    "resetBall": "Reiniciar Posição"
+  },
+  "pause": {
+    "title": "Pausado",
+    "resume": "Continuar",
+    "settings": "Opções",
+    "mainMenu": "Menu Principal"
+  },
+  "settings": {
+    "title": "Opções",
+    "ballTrail": "Rastro da Bola",
+    "screenShake": "Vibração da Tela",
+    "language": "Idioma",
+    "back": "Voltar"
+  },
+  "result": {
+    "gameOver": "Fim de Jogo",
+    "success": "Sucesso!",
+    "almost": "Quase!",
+    "gameComplete": "Você Venceu!",
+    "gameCompleteMessage": "Parabéns! Você completou todos os níveis!",
+    "gameOverMessage": "Você ficou sem vidas.",
+    "successMessage": "Sua previsão foi certeira!",
+    "almostMessage": "Foi por pouco. Vamos tentar este nível novamente.",
+    "nextLevel": "Próximo Nível",
+    "mainMenu": "Menu Principal",
+    "tryAgain": "Tentar Novamente",
+    "playAgain": "Jogar Novamente",
+    "watchAd": "Ver Anúncio (Recarregar Vidas)"
+  },
+  "ad": {
+    "watching": "Assistindo anúncio...",
+    "resumeMessage": "Seu jogo continuará em breve.",
+    "rewardMessage": "Todas as vidas foram recarregadas!"
+  }
+}

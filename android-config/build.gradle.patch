@@ -1,0 +1,47 @@
+// Adicionar ao android/app/build.gradle após criar o projeto
+
+android {
+    defaultConfig {
+        applicationId "com.bouncehunter.app"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 4
+        versionName "0.1.4"
+    }
+    
+    signingConfigs {
+        release {
+            def keystorePropertiesFile = rootProject.file("keystore.properties")
+            if (keystorePropertiesFile.exists()) {
+                def keystoreProperties = new Properties()
+                keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+                
+                keyAlias keystoreProperties['KEY_ALIAS']
+                keyPassword keystoreProperties['KEY_PASSWORD']
+                storeFile file(keystoreProperties['KEYSTORE_FILE'] ?: "app/bounce-hunter-release.keystore")
+                storePassword keystoreProperties['KEYSTORE_PASSWORD']
+            }
+        }
+    }
+    
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    
+    bundle {
+        language {
+            enableSplit = true
+        }
+        density {
+            enableSplit = true
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+}
